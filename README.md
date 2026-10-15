@@ -1,3 +1,4 @@
+Inspired by evolutionary computation, adaptive systems, and AI software engineering research.
 Polaris BioEvo Eval - Survival of the Fittest
 for AI Coding Agents
 Author: Rebbana Nagaraju, Kakatiya University | ID: BOYAPALLI-POLARIS-OCT11-
