@@ -1,3 +1,24 @@
+# Polaris BioEvo
+
+Evolutionary AI Coding Agents
+
+Zero -> Memory -> Evolution -> Intelligence
+
+Polaris BioEvo explores bio-inspired software engineering agents capable of adaptation through mutation, selection, memory, and regeneration mechanisms.
+
+Current Status:
+v0.1 - The Genome Release
+
+Research Areas:
+- Evolutionary AI
+- Agent Evaluation
+- Software Engineering Agents
+- Multi-Agent Systems
+- Bio-Inspired Computing
+
+Author:
+Rebbana Nagaraju
+Kakatiya University
 Inspired by evolutionary computation, adaptive systems, and AI software engineering research.
 Polaris BioEvo Eval - Survival of the Fittest
 for AI Coding Agents
