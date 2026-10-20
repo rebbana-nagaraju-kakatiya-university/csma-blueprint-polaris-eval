@@ -1,5 +1,16 @@
 ![Polaris BioEvo Eval](image_20261019_155737.jpg)
 
+# Polaris BioEvo Eval — Survival of the Fittest for AI Coding Agents 🧬
+
+## Protocol Stack (like MCP / A2A / ACP)
+![NHI Layer](image_20261018_142725.jpg)
+![PQC Layer](image_20261018_142313.jpg)
+
+## v0.1 - The Genome Release
+**Polaris BioEvo** is an evaluation framework for testing biological reasoning in AI models.## Protocol Stack (like MCP / A2A / ACP)
+![NHI Layer](image_20261018_142725.jpg)
+![PQC Layer](image_20261018_142313.jpg)[Polaris BioEvo Eval](image_20261019_155737.jpg)
+
 # Polaris BioEvo Eval — Survival of the Fittest for AI Coding Agents# 🧬 Polaris BioEvo
 
 ## v0.1 - The Genome Release
