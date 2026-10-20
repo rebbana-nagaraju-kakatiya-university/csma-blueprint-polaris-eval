@@ -1,4 +1,6 @@
-# 🧬 Polaris BioEvo
+![Polaris BioEvo Eval](image_20261019_155737.jpg)
+
+# Polaris BioEvo Eval — Survival of the Fittest for AI Coding Agents# 🧬 Polaris BioEvo
 
 ## v0.1 - The Genome Release
 
