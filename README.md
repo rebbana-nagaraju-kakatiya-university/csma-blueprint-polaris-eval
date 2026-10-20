@@ -1,4 +1,103 @@
-# Polaris BioEvo
+# 🧬 Polaris BioEvo
+
+## v0.1 - The Genome Release
+
+**Polaris BioEvo** is an evaluation framework for testing biological
+reasoning in AI models.
+
+BioEvo is designed to evaluate more than whether a model produces the
+correct final answer. It also examines whether the model understands
+biological mechanisms, causal relationships, required concepts, and
+avoids unsupported biological claims.
+
+---
+
+## 🎯 Project Goal
+
+The goal of BioEvo is to build a reproducible benchmark for evaluating
+AI reasoning across biological systems and processes.
+
+BioEvo v0.1 establishes the initial evaluation contract and baseline
+test domains.
+
+---
+
+## 🧪 BioEvo v0.1 Domains
+
+The Genome Release currently focuses on five biological areas:
+
+| Domain | Code |
+|---|---|
+| Apoptosis | APO |
+| Environmental Adaptation | ENV |
+| Evolution | EVO |
+| Homeostasis | HOM |
+| Regeneration | REG |
+
+---
+
+## 📊 BioEvo Score
+
+Each evaluation case receives a score from **0 to 100**.
+
+| Evaluation Dimension | Points |
+|---|---:|
+| Biological Correctness | 40 |
+| Mechanistic Reasoning | 30 |
+| Required Concepts | 20 |
+| Avoidance of Unsupported Claims | 10 |
+| **Total** | **100** |
+
+### Score interpretation
+
+- **90-100:** Excellent
+- **75-89:** Good
+- **60-74:** Partial
+- **Below 60:** Fail
+
+The overall BioEvo Score is calculated from the results across the
+evaluation cases.
+
+Domain-level scores can also be reported separately.
+
+---
+
+## 🧬 Evaluation Case Format
+
+Each BioEvo test is converted into a structured evaluation case.
+
+Example:
+
+```yaml
+id: BIOEVO-APO-001
+version: "0.1"
+domain: apoptosis
+
+prompt_scenario: >
+  A cell experiences severe DNA damage that cannot be repaired.
+  Predict the expected cellular response and explain the
+  biological reasoning.
+
+expected_biological_behaviour: >
+  The model should recognise that irreparable cellular damage
+  can activate mechanisms leading to programmed cell death.
+
+required_concepts:
+  - DNA damage
+  - cellular damage response
+  - apoptosis
+  - programmed cell death
+
+failure_conditions:
+  - incorrect biological conclusion
+  - incorrect causal relationship
+  - missing critical concept
+  - unsupported biological claim
+
+difficulty: medium
+
+max_score: 100
+ Polaris BioEvo
 
 Evolutionary AI Coding Agents
 
